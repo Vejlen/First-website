@@ -15,7 +15,7 @@ body {
     width: 960px;
 }
 
-.header__Logo {
+.header__logo {
     
     float: left;
     margin: 0;
@@ -23,7 +23,7 @@ body {
     width: 324px;
 }
 
-.header__Text {
+.header__text {
     background: #ededed url(../img/bg-logo.png) repeat-x top center;
     color: #fff;
     display: block;
@@ -47,23 +47,26 @@ body {
     padding: 124px 0 0;
 }
 
-.nav__text {
+.nav__btn {
     background-color: rgb(4, 56, 58);
     border-radius: 25px;
     color: #fff;
     display: inline-block;
-    font-size: 16px;
     height: 30px;
-    letter-spacing: 0.05em;
-    line-height: 30px;
     margin: 0px 10px;
     padding: 0px 15px;
+}
+
+.nav__btn--selected {
+    opacity: 0.4;
+}
+
+.nav__text {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
 }
-
-.nav__text--selected {
-    opacity: 0.4;
-}
-
