@@ -1,5 +1,4 @@
 body {
-    
     background: #ededed url(../img/bg-header.gif) repeat-x top center;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +23,9 @@ body {
 }
 
 .header__text {
-    background: #ededed url(../img/bg-logo.png) repeat-x top center;
+    background: rgb(25,0,36);
+    background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(34,0,70,1) 100%);
+    border-radius: 7px;
     color: #fff;
     display: block;
     font-size: 60px;
@@ -44,12 +45,13 @@ body {
     float: left;
     margin: 0;
     overflow: hidden;
-    padding: 124px 0 0;
+    padding: 115px 0 0;
 }
 
 .nav__btn {
-    background-color: rgb(4, 56, 58);
-    border-radius: 25px;
+    background: rgb(34,0,70);
+    background: linear-gradient(90deg, rgba(34,0,70,1) 0%, rgba(25,0,36,1) 100%);
+    border-radius: 15px;
     color: #fff;
     display: inline-block;
     height: 30px;
