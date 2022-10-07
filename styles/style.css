@@ -24,7 +24,7 @@ body {
 }
 
 .header__text {
-    background: rgb(25,0,36);
+    /* background: rgb(25,0,36); */
     background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(34,0,70,1) 100%);
     border-radius: 7px;
     color: #fff;
@@ -42,7 +42,8 @@ body {
 }
 
 .nav {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     float: left;
     margin: 0;
     overflow: hidden;
@@ -50,7 +51,7 @@ body {
 }
 
 .nav__btn {
-    background: rgb(34,0,70);
+    /* background: rgb(34,0,70); */
     background: linear-gradient(90deg, rgba(34,0,70,1) 0%, rgba(25,0,36,1) 100%);
     border-radius: 15px;
     color: #fff;
@@ -75,22 +76,42 @@ body {
 }
 
 .aboutUs {
-    margin: auto ;
-    
-    height: 30%;
-    width: 100%;
-    position: relative;
+    background: linear-gradient(90deg, rgba(113,1,205,0.6026611328125) 0%, rgba(1,133,207,1) 92%);
     display: flex;
+    height: 30%;
     justify-content: space-evenly;
+    margin: auto ;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
+
 
 .aboutUs__block {
     display: block;
     margin: 5%;
     width: 13%;
+    position: relative;
 }
 
-.aboutUs__img {
-    width: 100%;
-    border: 5px rgba(102, 2, 209, 0.596) ;
+.aboutUs__block__img {
+    /* box-shadow: 0px 0px 6px 5px rgb(48, 255, 238) ; */
+    border: 5px groove rgb(121, 27, 243);
+    border-radius: 5%;
+    box-shadow: 0 3px 4px black;
+}
+
+.aboutUs__block__header {
+    font-size: 26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+
+}
+
+.aboutUs__block__text {
+    background-color: #ebebeb1f;
+    box-shadow: 0 0 40px #ebebeb5b;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0 0 4px #fff;
 }
