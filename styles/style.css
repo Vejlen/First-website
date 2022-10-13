@@ -10,19 +10,16 @@ body {
 /* Header and nav styling */
 
 .header {
-  background-color: #e3dfdf;
-  height: 10%;
-  /* margin: 0 auto; */
-  padding: 0;
+  background: linear-gradient(0deg, rgba(223,223,223,1) 0%, rgba(226,226,226,1) 100%);
+  height: 95px;
   width: 100%;
   position: fixed;
-  top: 0px;
   z-index: 1;
+  box-shadow: 0px 0px 16px 1px;
 }
 
 .header__logo {
   float: left;
-  margin: 0;
   padding: 18px 0px 0px 10px;
   position: relative;
   left: 25%;
@@ -63,7 +60,6 @@ body {
 }
 
 .nav__btn {
-  /* background: rgb(34,0,70); */
   background: linear-gradient(
     90deg,
     rgba(34, 0, 70, 1) 0%,
@@ -105,7 +101,7 @@ body {
   margin: auto;
   width: 100%;
   position: relative;
-  padding-top: 80px;
+  padding-top: 95px;
 }
 
 .aboutUs__block {
@@ -170,7 +166,8 @@ body {
 }
 
 .articles__content {
-  border: 6px double rgb(70, 14, 161);
+  border: 6px ridge rgb(70, 14, 161);
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -179,11 +176,7 @@ body {
 }
 
 .articles__content__header {
-  background: linear-gradient(
-    29deg,
-    rgba(74, 0, 177, 1) 0%,
-    rgba(40, 0, 73, 1) 100%
-  );
+  background-color: rgb(57, 12, 129);
   color: #e3dfdf;
   font-size: 30px;
   font-weight: 500;
@@ -192,7 +185,7 @@ body {
   margin: 0;
   position: absolute;
   text-align: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -56%);
   width: 200px;
 }
 
