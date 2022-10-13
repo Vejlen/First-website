@@ -69,7 +69,7 @@ body {
   color: #fff;
   display: inline-block;
   height: 30px;
-  margin: 0px 10px;
+  margin: 0px 20px;
   padding: 0px 15px;
 }
 
@@ -229,6 +229,7 @@ body {
 }
 
 .footer__container {
+  height: fit-content;
 }
 
 .footer__text {
